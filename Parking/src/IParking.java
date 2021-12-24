@@ -10,7 +10,7 @@ public interface IParking {
 
     // 解析命令行输入的参数（格式），如文档描述
     public static IParams parse() throws Exception {
-        String st1, st2;
+        String st2;
         int big, med, sma;
         ArrayList<Integer> list = new ArrayList<Integer>();
         Scanner in = new Scanner(System.in);
